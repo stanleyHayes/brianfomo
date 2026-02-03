@@ -11,7 +11,7 @@ export const config = {
         cookieSecret: process.env.APP_COOKIE_SECRET,
     },
     server: {
-        port: Number.parseInt(process.env.SERVER_PORT, 10),
+        port: Number.parseInt(process.env.PORT, 10),
         host: process.env.SERVER_HOST,
         keepAliveTimeout: Number.parseInt(process.env.SERVER_KEEP_ALIVE_TIMEOUT, 10),
         headersTimeout: Number.parseInt(process.env.SERVER_HEADERS_TIMEOUT, 10),
