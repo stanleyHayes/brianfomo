@@ -12,7 +12,7 @@ export const config = {
     },
     server: {
         port: Number.parseInt(process.env.PORT, 10),
-        host: process.env.SERVER_HOST,
+        host: process.env.HOST,
         keepAliveTimeout: Number.parseInt(process.env.SERVER_KEEP_ALIVE_TIMEOUT, 10),
         headersTimeout: Number.parseInt(process.env.SERVER_HEADERS_TIMEOUT, 10),
         requestTimeout: Number.parseInt(process.env.SERVER_REQUEST_TIMEOUT, 10),

@@ -61,8 +61,8 @@ process.on("unhandledRejection", reason => {
     console.error("Unhandled Rejection: ", reason);
 })
 
-const port = config.app.port || 5000;
-const host = config.app.host || 'localhost';
+const port = config.server.port || 5000;
+const host = config.server.host || 'localhost';
 
 
 server.on('error', (e) => {
